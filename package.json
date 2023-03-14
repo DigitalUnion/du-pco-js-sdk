@@ -2,7 +2,14 @@
   "name": "dupco",
   "version": "1.0.0",
   "description": "数字联盟产品能力输出平台 JavaScript SDK",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "/dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w"
