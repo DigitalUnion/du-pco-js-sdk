@@ -1,4 +1,3 @@
-import PackageInfo from '../package.json';
 export const config = {
   apiIdKey: 'api_id',
   clientId: 'client_id',
@@ -19,4 +18,4 @@ export const config = {
   otherErrorCode: 10999,
 }
 
-export const sdkVer = PackageInfo.version;
+export const sdkVer = 'v1.0.0';
